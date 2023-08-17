@@ -1,0 +1,62 @@
+\documentclass{resume} 
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Jaime Nuci} % Your name
+\address{Goleta, CA} 
+\address{(909)662-9269 \\ jnuci@ucsb.edu \\ github.com/jnuci \\ linkedin.com/in/jaime-nuci/}
+
+\begin{document}
+
+\begin{rSection}{Education}
+
+    {\bf University of California, Santa Barbara} \hfill {\em Sept 2019-June 2023} \\
+    { Statistics and Data Science B.S. }
+
+\end{rSection}
+
+
+\begin{rSection}{Relevant Courses}
+{\bf Python for Data Science and Machine Learning Bootcamp}
+\\Comprehensive course introducing data visualization and machine learning techniques. Gives exposure to Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, and Keras libraries
+
+{\bf The Odin Project, Foundations Course}
+\\ Open-source front-end development curriculum building foundations in HTML/CSS, and JavaScript
+\end{rSection}
+
+\begin{rSection}{Programming Languages}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages \ & Python, R, JavaScript, SQL, HTML5, CSS  \\
+Technologies & PySpark, Git, Virtual Machine, React.js\\
+Databases & PostgreSQL, SQLAlchemy, Google BigQuery, pgAdmin 4
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{Projects}
+\begin{rSubsection}{CRUD API}{}{}{}
+ \item Built responsive API through the Python fastAPI framework
+ \item Incorporated PostgreSQL and pgAdmin 4 to manage relational database
+ \item Tested and debugged features via the Postman API platform
+\end{rSubsection}
+\begin{rSubsection}{Isagoat Discord Bot}{}{}{}
+ \item Developed a custom Discord bot using Python and discord.py API
+ \item Implemented custom slash commands to return responsive messages and real-time Google search results with the Selenium library
+ \item Deployed on Google Compute Engine virtual machine
+
+\end{rSubsection}
+\begin{rSubsection}{Sorting Algorithm Visualizer}{}{}{}
+ \item Collaborated with a classmate to produce an interactive website that visualizes common sorting algorithms in real time
+ \item  Utilized JavaScript to develop and animate common sorting algorithms
+ \item Included React component in JSX file to produce various sized bars and sorting commands
+\end{rSubsection}
+
+\begin{rSubsection}{Music Genre Classification}{}{}{}
+ \item Our group aimed to improve upon existing methods for lyric-based music genre classification
+ \item Dataset consisted of over 300,000 songs
+  \item Employed the NLTK and spaCy libraries for text preprocessing
+  \item Implemented and tested multiple bi-LSTM neural network architectures via TensorFlow/Keras libraries
+  \item Achieved 78 percent accuracy on classification of 4 genres (Pop, Rap, Country, R\&B)
+
+\end{rSubsection}
+\end{rSection}
+\end{document}
